@@ -1,0 +1,84 @@
+* {
+    margin: 0 auto;
+    padding: 0;
+    list-style: none;
+    color: #222328;
+    font-family: "맑은 고딕", sans-serif;
+}
+a {
+    text-decoration: none;
+}
+/* common  */
+body {
+    width: 1000px;
+    background: #fff;
+    font-size: 25px;
+}
+.clearfix::after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+/* header */
+header {
+    float: left;
+    
+}
+header .top {
+    background: #eee;
+    width: 200px;
+    height: 700px;
+}
+header .top .logo {
+    
+    width: 100%;
+    height: 70px;
+    padding-top: 40px;
+}
+header .top .logo a {
+    margin: 15px;
+}
+header .top .menu {
+    background: #222328;
+    width: 90%;
+    text-align: center;
+}
+header .top .menu .navi li {
+    font-size: 17px;
+    font-weight: 700;
+}
+header .top .menu .navi li a {
+    color: #fff;
+    display: block;
+    width: 100%;
+    padding: 9px 0;
+}
+
+/* 이미지 슬라이드 영역 */
+.imgslide {
+    float: left;
+    width: 800px;
+    position: relative;
+}
+.imgslide .imgtext {
+    font-weight: 700;
+    text-align: center;
+    color: #fff;
+    display: block;
+    width: 300px;
+    height: 50px;
+    line-height: 50px;
+    background: rgba(40,40,40, 0.3);
+    position: absolute; 
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}
+
+/* 메인 컨텐츠 영역 */
+.contents {
+    background: green;
+    float: left;
+    width: 800px;   
+}

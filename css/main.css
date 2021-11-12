@@ -29,6 +29,7 @@ header .top {
     background: #eee;
     width: 200px;
     height: 700px;
+    float: left;
 }
 header .top .logo {
     
